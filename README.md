@@ -30,20 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object Model and is the entire HTML structure of a web page. DOM allows programmers to use JavaScript to select and create interactions with elements of the DOM.
+
 2. What is an event?
+
+An event is an action or occurance that happens within system that is programmed in which the system indicates to the programmer and allows the programmer to respond in some way.
 
 3. What is an event listener?
 
+An event listener works with an event handler to listen for a certain event that occurs and when it detects the event will cause the event handler, function or code, to fire in response.
+
 4. Why would we convert a NodeList into an Array?
+
+Converting to an array allows access to a much more diverse set of methods that can act on arrays. Nodelist has some methods that are simalar to arrays but they are limited.
 
 5. What is a component?
 
+Components are reuseable peices of code that can be used to build elements that have simalar styles and functions. 
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -51,7 +61,7 @@ Your finished project must include all of the following requirements:
 
 * [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled it. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [X] Following the instructions in the `Header/index.js` file, create the Header component. 
 
 * [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
@@ -68,3 +78,4 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
+NM
